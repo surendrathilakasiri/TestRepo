@@ -1,0 +1,97 @@
+<DataTables xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="file://C:/VTAF_New/VTAF/xsd/DataTables.xsd" >
+	<Table name="dt_AccessCableTrackThroughtDirectLink" position="0">
+		<Header>
+			<Column name="urlType" type="String" />
+		</Header>
+		<Row>
+			<Value>Default</Value>
+		</Row>
+
+	</Table>
+	<Table name="dt_AccessCableTrackThroughtZoltarknows" position="1">
+		<Header>
+			<Column name="urlType" type="String" />
+		</Header>
+		<Row>
+			<Value>ZoltarKnows</Value>
+		</Row>
+
+	</Table>
+	<Table name="dt_ConfirmationOfUI" position="2">
+		<Header>
+			<Column name="urlType" type="String" />
+			<Column name="networkGroupOptions" type="String" />
+			<Column name="NetworkOption" type="String" />
+			<Column name="ProgramOption" type="String" />
+		</Header>
+		<Row>
+			<Value>Default</Value>
+			<Value>AD SUPPORTED CABLE,PAY-CABLE,BROADCAST</Value>
+			<Value>All</Value>
+			<Value>All</Value>
+		</Row>
+
+	</Table>
+	<Table name="dt_ReportsToBeTestedGivingVariousFilterOptions" position="3">
+		<Header>
+			<Column name="urlType" type="String" />
+			<Column name="unselectNetwork" type="String" />
+			<Column name="unselectProgram" type="String" />
+			<Column name="networkOption" type="String" />
+			<Column name="programOption" type="String" />
+			<Column name="verifyLabelName" type="String" />
+		</Header>
+		<Row>
+			<Value>Default</Value>
+			<Value>Network</Value>
+			<Value>Program</Value>
+			<Value>All</Value>
+			<Value>PAWN STARS</Value>
+			<Value>PAWN STARS</Value>
+		</Row>
+
+	</Table>
+	<Table name="dt_DataFormatInReport" position="4">
+		<Header>
+			<Column name="urlType" type="String" />
+			<Column name="unSelectedNetwork" type="String" />
+			<Column name="unSelectedProgram" type="String" />
+			<Column name="networkOption" type="String" />
+			<Column name="programOption" type="String" />
+		</Header>
+		<Row>
+			<Value>Default</Value>
+			<Value>Network</Value>
+			<Value>Program</Value>
+			<Value>All</Value>
+			<Value>PAWN STARS</Value>
+		</Row>
+
+	</Table>
+	<Table name="dt_PDFExport" position="5">
+		<Header>
+			<Column name="urlType" type="String" />
+			<Column name="unSelectedNetwork" type="String" />
+			<Column name="unSelectedProgram" type="String" />
+			<Column name="networkOption" type="String" />
+			<Column name="programOption" type="String" />
+			<Column name="pdfDownloadNAme" type="String" />
+		</Header>
+		<Row>
+			<Value>Default</Value>
+			<Value>Network</Value>
+			<Value>Program</Value>
+			<Value>All</Value>
+			<Value>PAWN STARS</Value>
+			<Value>CableTrackMainReport.pdf</Value>
+		</Row>
+
+	</Table>
+
+
+
+
+
+
+</DataTables>
